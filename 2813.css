@@ -1,0 +1,264 @@
+/ *
+Un tema adattato da Byrne Reese dal 2813 dal tema originale???
+Nome: 2813
+Designer: TODO
+designer_url: http://www.tubetorial.com/
+layout: layout WTT
+* /
+
+corpo  {
+        font-family :  'Lucida Grande' , Verdana , Arial , Sans - Serif ;
+        border-top-width :  6px ;
+        border-top-style :  solido ;
+        border-top-color :  rgb ( 40 ,  154 ,  207 );
+        border-bottom-width :  6px ;
+        border-bottom-style :  solido ;
+        border-bottom-color :  rgb ( 40 ,  154 ,  207 );
+        color :  # 444444 ;
+        sfondo :  bianco ;
+}
+una  {
+        text-decoration :  none ;
+        color :  rgb ( 51 ,  ​​136 ,  204 );
+}
+uno : collegamento ,  una : visited ,  a : active
+{
+    contorno - colore :  invertito ;
+    contorno - Larghezza :  media ;
+}
+a : hover
+{
+    text-decoration :  none ;
+    color :  rgb ( 255 ,  255 ,  255 );
+    background-color :  rgb ( 51 ,  ​​136 ,  204 );
+}
+
+# Contenitore-inner  {
+        margin :  0  auto  0  auto ;
+        width :  900px ;
+        padding :  0 ;
+}
+# Content-inner  {  padding :  0 ;  margin :  0 ;  }
+. Layout WTT  # alfa-interiore ,
+. Layout WTT  # alpha  {
+        width :  450px ;
+        float :  sinistro ;
+}
+. Layout WTT  # beta-interiore ,
+. Layout WTT  # beta  {
+        width :  200px ;
+        sinistra :  240px ;
+}
+. Layout WTT  # gamma-interiore ,
+. Layout WTT  # gamma  {
+        width :  200px ;
+        destra :  180px ;
+}
+# Header-inner  {  padding :  20px  0  20px  0 ;  }
+
+# Alpha-interiore ,  # beta-interiore ,  # gamma-interno  {  padding :  0 ;  margin :  0 ;  width :  100 % ;  }
+# Header-name  {
+        font-family :  Verdana ,  "Bitstream Vera Sans" ,  Sans - Serif ;
+        text-transform :  minuscolo ;
+        font-weight :  bold ;
+        margin :  0 ;
+        font-size :  28px ;
+        letter-spacing :  -1px ;
+}
+# Header-name  di un  {
+        colore :  nero ;
+        text-decoration :  none ;
+}
+# Header-name  a : hover  {
+        colore :  nero ;
+        sfondo :  nessuno ;
+        text-decoration :  sottolineatura ;
+}
+        
+# Header-descrizione  {
+        font-size :  13px ;
+        font-family :  Verdana ,  "Bitstream Vera Sans" ,  Sans - Serif ;
+        margin :  0 ;
+}
+
+. Entry-title  a : hover  {
+        background-color :  # EEE ;
+        colore :  nero ;
+}
+. Entry-title  a ,
+. Entry-title  {
+        font-size :  20px ;
+        font-family :  "Tahoma" ;
+        color :  rgb ( 68 , 68 , 68 );
+        text-align :  left ;
+        text-decoration :  none ;
+        padding :  0 ;
+        margin : 0 ;
+}
+. Entry-content  {
+        font-size :  13px ;
+        margin :  0 ;
+        padding :  0 ;
+}
+. Asset-meta  {
+        font-family :  Verdana ,  "Bitstream Vera Sans" ,  Sans - Serif ;
+        font-size :  12px ;
+        color :  # 999 ;        
+        padding :  0 ;
+        margin : 0 ;
+}
+. Asset-meta  a  {
+        text-decoration :  none ;
+        color :  # 666 ;
+}
+
+h2 . Data-header  {
+        Display :  none ;
+}
+. Widget di-header  {
+        font-size :  13px ;
+        font-weight :  bold ;
+        color :  rgb ( 85 ,  85 ,  85 );
+        text-transform :  uppercase ;
+}
+. Widget di-header  a  {
+        color :  rgb ( 68 ,  68 ,  68 );
+}
+h3 . widget di-header  {
+        font-size :  12px ;
+        font-weight :  bold ;
+        color :  rgb ( 85 ,  85 ,  85 );
+        text-align :  left ;
+}
+. Widget di  {
+        margin-bottom :  10px ;
+}
+. Widget di  ul
+{
+        padding :  0 ;
+        margin :  0 ;
+        list-style-type :  none ;
+        list-style-image :  none ;
+        list-style-position :  al di fuori ;
+}
+
+. Widget di  Li  {
+        font-family :  'Lucida Grande' , Verdana , Arial , Sans - Serif ;
+        padding-left :  0px ;
+        margin-left :  0px ;
+        margin-bottom :  8px ;
+        font-size :  0.8em ;
+}
+. Widget di-contenuti  {
+        padding :  0 ;
+        margin :  0 ;
+}
+. Widget di-contenuti  . miniature  img  {
+        padding :  5px ;
+        margin :  5px ;
+        border :  1px  solido  # 999999 ;
+}
+. Asset-corpo  {
+        margin-left :  0 ;
+        line-height :  170 % ;
+}
+. Asset-piè di pagina ,  . asset-piè di pagina  di un  {
+        color :  # 9C9C9C ;
+        text-align :  left ;
+        margin-left :  0 ;
+}
+. Widget di-archivio-categoria  a  {
+        color :  rgb ( 153 , 153 , 153 );
+        Display :  block ;
+}
+. Widget di-archivio-category  {
+        text-transform :  uppercase ;
+        font-size :  16px ;
+        color :  rgb ( 153 , 153 , 153 );
+        line-height :  14px ;
+}
+. Widget di  li  a  {  text-decoration :  none ;  }
+. Widget di  li  a : hover  {  color :  white ;  text-decoration :  none ;  }
+. Widget di-archivio-categoria  li  li  {
+        margin-left :  10px ;
+        font-size :  10px ;
+}
+. Widget di-ricerca  . widget di-header  {
+        Display :  none ;
+}
+ingresso # ricerca  {  width :  100px ;  }
+. Widget-categorie  a : hover  {
+     color  :  # 000000 ;
+     background-color  :  transparent ;
+}
+. Asset-piè di pagina  di un : hover  {
+        color :  # ffffff ;
+}
+
+h3  {
+        font-size :  20px ;
+        font-family :  "Tahoma" ;
+        color :  rgb ( 68 , 68 , 68 );
+        text-align :  centro ;
+}
+. Commenti-contenuto  {
+        padding-left :  0 ;
+}
+. Comment-content  {
+        line-height :  175 % ;
+        margin-left :  0 ;
+}
+p . comment-footer  {
+        font-family :  "Tahoma" ;
+        font-size :  14px ;
+        margin-left :  0 ;
+}
+p . comment-piè di pagina  di un  {
+        font-weight :  bold ;
+}
+. Commenti-open-content  {
+        margin-left :  0 ;
+        line-height :  175 % ;
+}
+textarea # comment-text  {
+        width :  400px ;
+}
+p # comments-open-text  {
+        chiara :  entrambi ;
+        margin-top :  10px ;
+}
+# Comments-open-data  label  {
+        float :  sinistro ;
+        font-weight :  bold ;
+        font-size :  10px ;
+        font-family :  Verdana ,  Sans - Serif ;
+        text-transform :  minuscolo ;
+        margin-right :  10px ;
+        text-align :  destra ;
+}
+. Commenti-open-data  p  {
+        margin-top :  10px ;
+}
+. Risultati di ricerca-contenitore  h3  {
+        text-align :  left ;
+}
+. Entry-content  h2
+{
+        font-size :  13px ;
+        font-weight :  bold ;
+        color :  # 525252 ;
+        text-align :  left ;
+        font-family :  'Lucida Grande' , Verdana , Arial , Sans - Serif ;
+        border-bottom :  1px  solido  # CCCCCC ;
+}
+. Widget-pagine  li  a  {
+        color :  # 999 ;        
+        font-family :  'Lucida Grande' , Verdana , Arial , Sans - Serif ;
+        font-size :  18px ;
+        text-transform :  uppercase ;
+        text-decoration :  none ;
+}
+. Widget-pagine  li  a : hover  {
+        color :  # 525252 ;
+        sfondo :  nessuno ;
+}
