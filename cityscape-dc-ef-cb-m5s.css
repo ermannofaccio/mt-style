@@ -1,0 +1,429 @@
+
+
+Un Six Apart tema adattato per Movable Type template di default 
+Nome: Paesaggio urbano DC  
+Designer: Tiffany Chow  
+designer_url: http://tiffany.vox.com/ 
+layout: layout WTT, il layout-TWT, il layout-WT, il layout-tw
+* /
+
+
+/ * Predefinito ----------------------------------------------- ----------------- * /
+
+/ * Globale * /
+
+corpo  {
+    carattere :  normale  13px  Arial ,  Helvetica ,  hirakakupro - w3 ,  Osaka ,  "ms pgothic" ,  sans-serif ;
+}
+
+
+/ * Intestazione * /
+
+# Header  {
+    border-top-width :  10px ;
+    border-top-style :  solido ;
+}
+
+# Header-inner  {
+    posizione :  relativo ;
+}
+
+# Header-name  {
+    margin :  0  0  5px ;
+    line-height :  1 ;
+}
+
+# Header-descrizione  {
+    margin :  0 ;
+    font-size :  14px ;
+    line-height :  1 . 125 ;
+}
+
+# Header  a  {
+    text-decoration :  none ;
+}
+
+# Header  a : hover  {
+    text-decoration :  sottolineatura ;
+}
+
+
+/ * Contenuto * /
+
+. Asset-name  {
+    font-size :  22px ;
+    font-weight :  bold ;
+}
+
+. Asset-nome  di un  {
+    text-decoration :  none ;
+}
+
+. Asset-nome  di un : hover  {
+    text-decoration :  sottolineatura ;
+}
+
+. Asset contenuti  {
+    margin :  5px  0 ;
+}
+
+. Asset-più-link  {
+    font-weight :  bold ;
+}
+
+. Asset-meta  {
+    margin-top :  .25 em ;
+    padding-top :  2px ;
+    font-weight :  normale ;
+
+    Display :  block ;
+    border-top :  1px  tratteggiata  # e0f2fe ;
+    padding-bottom :  0,3 em ;
+}
+
+. Asset-piè di pagina  di un ,
+. Comment-piè di pagina  di un  {
+    font-weight :  normale ;
+}
+
+. Contenuto-nav  {
+    margin :  5px  0  10px ;
+}
+
+. Archivio-title  {
+    margin :  5px  0  30px ;
+    font-size :  26px ;
+    font-weight :  bold ;
+}
+
+. Trackback-info ,
+. Trackback-contenuto ,
+. Comment-contenuto ,
+. Commenti-open-contenuto ,
+. Commenti-chiuso  {
+    margin :  5px  0 ;
+}
+
+. Widget di-header ,
+. Trackback-header ,
+. Commenti-header ,
+. Commenti-open-intestazione ,
+. Archivio-header ,
+. Ricerca-forma-header ,
+. Risultati di ricerca-header  {
+    margin :  0 ;
+    padding :  5px  0 ;
+    font-size :  18px ;
+    font-weight :  bold ;
+}
+
+. Risultati di ricerca-header  {
+    margin-bottom :  0,25 em ;
+}
+
+. Asset-più-link ,
+. Asset-meta ,
+. Comment-piè di pagina ,
+. Trackback-piè di pagina ,
+. Typelist-thumbnailed  {
+    font-size :  11px ;
+}
+
+/ * Footer * /
+
+# Footer-contenuto ,
+# Footer-contenuto di  una  {
+    color :  # fff ;
+}
+
+
+/ * Utility * /
+
+. Widget di-header ,
+. Trackback-header ,
+. Commenti-header ,
+. Commenti-open-intestazione ,
+. Archivio-header ,
+. Ricerca-forma-header ,
+. Risultati di ricerca-header  {
+    / * Ie vittoria (5, 5.5, 6) bugfix * /
+    p \ osizione :  relative ;
+    width :  100 % ;
+    w \ idth :  auto ;
+}
+
+
+/ * Globale ----------------------------------------------- ------------------ * /
+
+corpo  {
+    color :  # 333 ;  
+    font-family :  "Trebuchet MS" ,  arial ,  "hirakakupro-w3" ,  Osaka ,  "ms pgothic" ,  sans-serif ;   
+    sfondo :  # 124344  url (body.gif)  repeat-y   top  centro ; 
+}
+
+una  {
+    color :  # 3d6dae ; 
+}
+
+a : hover  {
+    text-decoration :  none ;
+}
+
+
+/ * Layout di ----------------------------------------------- ------------------ * /
+
+# Contenitore-interiore ,
+# Content  {
+    background-color :  # fff ;
+}
+
+# Header-inner ,  # content-interiore ,  # footer-inner  {
+    padding-top :  0 ;
+    padding-bottom :  0 ;
+}
+
+# Header-inner ,  # beta-interiore ,  # gamma-interna  {
+    padding-right :  0 ;
+    padding-left :  0 ;
+}
+
+
+/ * Header ----------------------------------------------- ------------------ * /
+
+# Header  { 
+    border-color :  # 27455a ;  
+    sfondo :  # 73C0DC  url (header.png)  no-repeat  basso  a sinistra ; 
+}
+
+# Header  a  {
+    color :  # 003c6a ;
+    font-weight :  bold ;
+}
+
+*  html  # header-content  {   / * HACK rivolge IE6, ma non 7, invece di min-height * /
+    Altezza :  72px ;
+}
+# Header-content  {
+    width :  844px ; 
+    min-height :  72px ; 
+    margin :  20px  0  100px  20px ;
+}
+
+# Header-name  {
+    color :  # 003c6a ;  
+    font-family :  "Century Gothic" ,  Futura ,  Arial ,  Helvetica ,  "hirakakupro-w3" ,  Osaka ,  "ms pgothic" ,  sans-serif ; 
+    font-size :  28px ;
+    font-weight :  bold ;
+}
+
+# Header-descrizione  {
+    color :  # 003c6a ;  
+    font-family :  "Century Gothic" ,  Futura ,  Arial ,  Helvetica ,  "hirakakupro-w3" ,  Osaka ,  "ms pgothic" ,  sans-serif ;  
+    font-weight :  bold ; 
+}
+
+
+/ * Content ----------------------------------------------- ----------------- * /
+
+. Asset-nome ,
+. Commenti-header ,
+. Commenti-open-intestazione ,
+. Trackback-header ,
+. Archivio-titolo
+. Archivio-header ,
+. Ricerca-forma-header ,
+. Risultati di ricerca-header  {
+    font-family :  "Century Gothic" ,  Futura ,  Arial ,  Helvetica ,  "hirakakupro-w3" ,  Osaka ,  "ms pgothic" ,  sans-serif ;
+} 
+
+. Asset-nome ,
+. Asset-nome  di un ,
+. Archivio-title  {
+    color :  # 3e667e ;
+}
+
+. Asset-piè di pagina ,
+. Asset-piè di pagina  di un ,
+. Comment-piè di pagina ,
+. Comment-piè di pagina  di un ,
+. Trackback-footer  {
+    color :  # 999 ;
+}
+
+. Asset-footer  {
+    border-top-color :  # e0f2fe ;
+}
+
+. Commenti-header ,
+. Commenti-open-intestazione ,
+. Trackback-header ,
+. Archivio-header ,
+. Ricerca-forma-header ,
+. Risultati di ricerca-header  {
+    color :  # a0cddd ;
+}
+
+
+. Archivio-list-item  {
+    margin-bottom :  5px ;
+}
+
+
+/ * Widget ----------------------------------------------- ------------------ * /
+
+. Layout WTT  # content-interno  {  sfondo :  trasparente  url (tenore-wtt.gif)  repeat-y  scorrere verso  destra  in alto ;  }
+. Layout TWT  # content-interno  {  sfondo :  trasparente  url (tenore-twt.gif)  repeat-y  scorrere  a sinistra  in alto ;  }
+. Layout-WT  # content-interno  {  sfondo :  trasparente  url (tenore-wt.gif)  repeat-y  scorrere verso  destra  in alto ;  }
+. Layout-tw  # content-interno  {  sfondo :  trasparente  url (tenore-tw.gif)  repeat-y  scroll  a sinistra  in alto ;  }
+
+
+
+
+. Widget di  una ,
+. Archivio-widget di  . widget di lista  . elemento  {
+    color :  # 4c6885 ;
+} 
+
+. Widget di-header  {
+    padding :  5px  15px ;
+    font-size :  12px ;
+    font-weight :  bold ; 
+    font-family :  "Century Gothic" ,  Futura ,  Arial ,  Helvetica ,  "hirakakupro-w3" ,  Osaka ,  "ms pgothic" ,  sans-serif ; 
+    sfondo :  url (su widget header.gif)  ripetizione  superiore  a sinistra  # 587fa5 ; 
+}  
+. Widget di  . widget di-header  {
+    border-left :  1px  solido  # fff ;
+}
+
+. Layout-tw  . widget di  . widget di-header  {
+    border-left-width :  0 ;
+}
+
+. Layout TWT  # beta  . widget di-header ,
+. Layout-tw  . widget di-header  {
+    border :  0 ;
+}
+
+. Embed-asset-widget di  . widget di-header  {
+    margin-bottom :  10px ;
+}  
+. Widget di-header ,
+. Widget di-header  a  {
+    text-decoration :  none ;
+    color :  # fff ;
+}
+
+. Widget di-header  . modificare  una  {
+    border-left-color :  # fff
+} 
+. Widget di  . widget di-header  di un : hover  {
+    text-decoration :  sottolineatura ;
+}
+
+. Widget di-contenuti  {
+    padding :  0  15px ;
+}
+
+. Media-stream-widget di  img  {
+    border :  1px  solido  # 999 ;
+} 
+. Widget di-header  . modificare  una ,
+. Archivio-widget di  . widget di lista  . elemento  a ,
+. Archivio-widget di  . widget di lista  . elemento  {
+    font-weight :  normale ;
+} 
+
+. Widget di-header  {
+    font-size :  14px ;
+}
+
+. Widget di-header  a  {
+    text-decoration :  none ;
+}
+
+. Widget di-intestazione  di un : hover  {
+    text-decoration :  sottolineatura ;
+}
+
+. Widget di-contenuti  {
+    margin-top :  5px ;
+    margin-bottom :  20px ;
+    font-size :  11px ;
+}
+
+
+/ * "Powered By" Widget * /
+
+. Widget di-powered  . widget di-contenuti  {
+    padding :  10px ;
+    text-align :  centro ;
+}
+
+
+/ * Calendar Widget * /
+
+. Widget di-calendario  . widget di-contenuti  tavolo  {
+    font-size :  10px ;
+}
+
+
+/ * Footer Widgets * /
+
+# Footer  . widget di  {
+    margin :  10px  0 ;
+}
+
+# Footer  . widget di-contenuti  {
+    padding-right :  0 ;
+    padding-left :  0 ;
+}
+
+# Footer  . widget di alta potenza  su widget contenuti.  {
+    padding :  0 ;
+    text-align :  left ;
+}
+
+
+/ * Footer ----------------------------------------------- ------------------ * /
+
+# Footer  { 
+    background-color :  # 27455a ; 
+}
+
+# Footer-content  {
+    margin :  20px  0 ;
+}
+
+
+/ * Utilities ----------------------------------------------- --------------- * /
+
+# Intestazione : dopo ,
+# Header-inner : dopo ,
+# Content : dopo ,
+# Alpha-interiore : dopo ,
+# Beta-interiore : dopo ,
+# Gamma-interiore : dopo ,
+# Footer : dopo  {
+    tenore :  "" ;
+    Display :  block ;
+    visibilità :  hidden ;
+    chiara :  entrambi ;
+    altezza :  0.1px ;
+    font-size :  0.1em ;
+    line-height :  0 ;
+}
+
+
+# Header-inner ,
+# Content-interiore ,
+# Footer-interiore ,
+. Asset-corpo  {
+    Altezza :  1 % ;
+}
+
+
+/ * Stili personalizzati ---------------------------------------------- ------------ * /
+
+# Content-inner  {
+    padding :  10px  0 ;
+}
